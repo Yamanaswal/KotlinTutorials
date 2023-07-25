@@ -34,5 +34,5 @@ fun main() {
 
     i = 12
     println(i++ + ++i) // 12 + 14 = 26
-    println(i-- + ++i) // output = 28
+    println(i-- + ++i) // 12 + 12 = 28
 }
