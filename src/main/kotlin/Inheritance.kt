@@ -53,5 +53,6 @@ class Child2 : Child1() {
 
     fun myMethod2() {
         println("i am here child 2.. ")
+        super.myMethod()
     }
 }
