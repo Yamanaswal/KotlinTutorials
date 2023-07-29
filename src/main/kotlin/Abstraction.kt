@@ -1,6 +1,6 @@
 fun main() {
 //    val shape = Shape() // not possible - due to abstract class
-    val circle = Circle()
+    val circle = CircleNew()
     println(circle.name)
     println(circle.area(23))
     println(circle.area())
@@ -18,7 +18,7 @@ abstract class Shape {
     }
 }
 
-class Circle() : Shape() {
+class CircleNew() : Shape() {
     override fun area(radius: Int): Double {
         return (Math.PI * (radius * radius)).toDouble()
     }
