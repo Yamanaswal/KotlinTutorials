@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val res1 = add(3, 4)
     println(res1)
@@ -5,11 +7,11 @@ fun main() {
 
     printMessage(5) //5 is argument
     printMessage()
-    println(addition(33,44))
-    println(addition(num2 = 44.0,num1 = 33.0)) //Named Argument
+    println(addition(33, 44))
+    println(addition(num2 = 44.0, num1 = 33.0)) //Named Argument
 
-    val fn = ::add
-    println(fn(22,33))
+    val fn: (a: Int, b: Int) -> Int = ::add //lambda function
+    println(fn(22, 33))
 }
 
 fun printMessage(i: Int = 1) { // here - i is parameter which is val type
@@ -29,11 +31,11 @@ fun evenOrOdd(num: Int): Unit {
     println(if (num % 2 == 0) "Even" else "Odd")
 }
 
-fun addition(num1: Int, num2: Int): Int{
+fun addition(num1: Int, num2: Int): Int {
     return num1 + num2
 }
 
 
-fun addition(num1: Double, num2: Double): Double{
+fun addition(num1: Double, num2: Double): Double {
     return num1 + num2
 }

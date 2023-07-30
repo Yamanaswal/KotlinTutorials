@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
 //    val shape = Shape() // not possible - due to abstract class
     val circle = CircleNew()

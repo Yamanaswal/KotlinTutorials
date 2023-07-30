@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     dragObjects(arrayOf(Circle(), Player()))
 }

@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val car: Car = Car("Bmw", "Petrol", 2333)
     val car1: Car = Car("Bmw1", "Petrol", 2333)

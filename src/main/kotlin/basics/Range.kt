@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     //Range
     val number = 5

@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     SharingWidget.incrementFacebookLikes()
     SharingWidget.incrementFacebookLikes()

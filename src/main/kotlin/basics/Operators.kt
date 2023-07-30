@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var i = 13
     var k = 7

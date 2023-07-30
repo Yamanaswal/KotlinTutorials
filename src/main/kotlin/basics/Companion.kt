@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     println(MyClass.MyObject.test())
     println(MyClass.MyAnotherObject.test())
@@ -9,8 +11,6 @@ fun main() {
 
     val pizza2 = Pizza.create("Cheese")
     println(pizza2.toString())
-
-
 }
 
 

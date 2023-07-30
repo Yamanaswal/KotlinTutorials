@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     val above70 = false
     val knowsProgramming = true

@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var arr = arrayOf("One", "Two", "Three", 788, 222) //
     println(arr[0])

@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var score = 5
     score = 10
